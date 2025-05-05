@@ -10,7 +10,7 @@ class School {
     use Logger;
     public function __construct($name) {
         $this->name = $name;
-        Logger::log("New Client $name CREATED: ");
+        Logger::log("New Client $name CREATED");
     }
 
     public function getName() {
